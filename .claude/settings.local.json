@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip show *)",
+      "Bash(curl -s \"https://raw.githubusercontent.com/UKGovernmentBEIS/control-arena/refs/heads/main/control_arena/setting.py\" -o /tmp/setting.py)",
+      "Read(//tmp/**)",
+      "Bash(curl -s \"https://api.github.com/repos/UKGovernmentBEIS/control-arena\")"
+    ]
+  }
+}
